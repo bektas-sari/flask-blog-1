@@ -1,4 +1,4 @@
-# Flask Blog Web Sitesi
+# Flask Blog Web Sitesi (Deneme Amaçlı Olarak Vo Ai Codere ile Oluşturulmuştur)
 
 Bu proje, Flask framework'ü kullanılarak geliştirilen basit bir blog web sitesidir. Kullanıcıların blog yazılarını görüntülemesine, hakkımda bölümünü okumasına ve iletişim formu aracılığıyla mesaj göndermesine olanak tanır.
 
