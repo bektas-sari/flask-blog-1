@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Sitesi</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">BlogSite</div>
+        <div class="nav-links">
+            <a href="#home" class="nav-link">Anasayfa</a>
+            <a href="#about" class="nav-link">Hakkımda</a>
+            <a href="#blog" class="nav-link">Blog</a>
+            <a href="#contact" class="nav-link">İletişim</a>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content" data-aos="fade-up">
+            <h1>Hoş Geldiniz</h1>
+            <p>Düşüncelerimi ve deneyimlerimi paylaştığım kişisel bloguma hoş geldiniz.</p>
+        </div>
+    </section>
+
+    <section id="about" class="about" data-aos="fade-right">
+        <h2>Hakkımda</h2>
+        <div class="about-content">
+            <img src="https://images.unsplash.com/photo-1517849845537-4d257902454a" alt="Profil" class="profile-img">
+            <p>Merhaba! Ben bir yazılım geliştiricisi ve blog yazarıyım. Teknoloji ve yazılım dünyasındaki deneyimlerimi sizlerle paylaşıyorum.</p>
+        </div>
+    </section>
+
+    <section id="blog" class="blog" data-aos="fade-up">
+        <h2>Blog Yazıları</h2>
+        <div class="blog-grid">
+            <article class="blog-card" data-aos="zoom-in">
+                <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97" alt="Blog 1">
+                <h3>Python ile Web Geliştirme</h3>
+                <p>Flask kullanarak modern web uygulamaları nasıl geliştirilir?</p>
+            </article>
+            <article class="blog-card" data-aos="zoom-in">
+                <img src="https://images.unsplash.com/photo-1516116216624-53e697fedbea" alt="Blog 2">
+                <h3>Veritabanı Tasarımı</h3>
+                <p>Etkili veritabanı tasarımının temel prensipleri</p>
+            </article>
+            <article class="blog-card" data-aos="zoom-in">
+                <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" alt="Blog 3">
+                <h3>Modern Web Teknolojileri</h3>
+                <p>Günümüzün popüler web teknolojilerine genel bakış</p>
+            </article>
+        </div>
+    </section>
+
+    <section id="contact" class="contact" data-aos="fade-up">
+        <h2>İletişim</h2>
+        <div class="contact-form">
+            <input type="text" placeholder="Adınız" class="form-input">
+            <input type="email" placeholder="E-posta Adresiniz" class="form-input">
+            <textarea placeholder="Mesajınız" class="form-input"></textarea>
+            <button class="submit-btn">Gönder</button>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>BlogSite</h3>
+                <p>Teknoloji ve yazılım hakkında her şey</p>
+            </div>
+            <div class="footer-section">
+                <h3>Bağlantılar</h3>
+                <a href="#home">Anasayfa</a>
+                <a href="#about">Hakkımda</a>
+                <a href="#blog">Blog</a>
+                <a href="#contact">İletişim</a>
+            </div>
+            <div class="footer-section">
+                <h3>İletişim</h3>
+                <p>Email: info@blogsite.com</p>
+                <p>Tel: +90 555 555 5555</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 BlogSite. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+
+        // Smooth scroll for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
