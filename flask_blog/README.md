@@ -22,7 +22,7 @@ Aşağıdaki yazılımların bilgisayarınızda kurulu olduğundan emin olun:
 
 1. Projeyi klonlayın:
    ```bash
-   git clone https://github.com/bektas-sari/flask-blog.git
+   git clone https://github.com/bektas-sari/flask-blog-1.git
    cd flask-blog
    ```
 
