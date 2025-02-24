@@ -80,6 +80,7 @@ git checkout -b feature/yeniozellik
 MIT lisansı.
 
 ## İletişim
-Mail: bektas.sari@gmail.com
-GitHub: bektas-sari
+**GitHub:** [bektas-sari](https://github.com/bektas-sari)
+**Email:** [bektas.sari@gmail.com](mailto:bektas.sari@gmail.com)
+**LinkedIn:** [bektas-sari](https://www.linkedin.com/in/bektas-sari)
 
