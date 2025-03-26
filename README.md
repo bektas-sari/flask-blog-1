@@ -84,3 +84,4 @@ MIT lisansı.
 **Email:** [bektas.sari@gmail.com](mailto:bektas.sari@gmail.com)
 **LinkedIn:** [bektas-sari](https://www.linkedin.com/in/bektas-sari)
 
+Eğlenceli kodlamalar...
