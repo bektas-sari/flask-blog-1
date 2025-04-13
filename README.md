@@ -1,6 +1,7 @@
 # Flask Blog Web Sitesi (Deneme Amaçlı Olarak Vo Ai Codere ile Oluşturulmuştur)
 
-Bu proje, Flask framework'ü kullanılarak geliştirilen basit bir blog web sitesidir. Kullanıcıların blog yazılarını görüntülemesine, hakkımda bölümünü okumasına ve iletişim formu aracılığıyla mesaj göndermesine olanak tanır.
+Bu proje, Flask framework'ü kullanılarak geliştirilen basit bir blog web sitesidir. 
+Kullanıcıların blog yazılarını görüntülemesine, hakkımda bölümünü okumasına ve iletişim formu aracılığıyla mesaj göndermesine olanak tanır.
 
 ## Özellikler
 - **Anasayfa**: Hoş geldiniz mesajı ile blog sitesine giriş.
@@ -80,7 +81,6 @@ git checkout -b feature/yeniozellik
 MIT lisansı.
 
 ## İletişim
-**GitHub:** [bektas-sari](https://github.com/bektas-sari)
 **Email:** [bektas.sari@gmail.com](mailto:bektas.sari@gmail.com)
 **LinkedIn:** [bektas-sari](https://www.linkedin.com/in/bektas-sari)
 
